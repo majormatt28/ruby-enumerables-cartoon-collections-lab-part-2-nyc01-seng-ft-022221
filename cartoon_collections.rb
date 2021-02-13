@@ -19,7 +19,7 @@ def long_planeteer_calls(planeteer_calls)
   # Return the boolean result of this check
   value = 0
   planeteer_calls.find do |strings|
-    if strings.any? > 4
+    if strings > 4
       puts value != strings
     end
   end
