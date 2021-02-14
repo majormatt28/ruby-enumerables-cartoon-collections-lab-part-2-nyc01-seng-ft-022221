@@ -19,6 +19,10 @@ def long_planeteer_calls(planeteer_calls)
   # Return the boolean result of this check
   planeteer_calls.any? do |element|
     if element.length >= 4
+      element = true
+    else
+      element = false
+    end
     end
   end
 end
